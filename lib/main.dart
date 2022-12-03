@@ -35,10 +35,10 @@ List dataList = [];
 
 class _MyHomePageState extends State<MyHomePage> {
   Future<void> readJson() async {
-    final String response = await rootBundle.loadString('assets/news.json');
+    final String response = await rootBundle.loadString('assets/shop.json');
     final data = await json.decode(response);
     setState(() {
-      dataList = [data["featured"], data["news"]];
+      dataList = [data["categories"], data["products"]];
     });
   }
 
@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             Container(
                 margin: const EdgeInsets.only(bottom: 30.0),
-                child: Image.asset('assets/images/img.png')),
+                child: Image.asset('assets/images/onlineShopping.jpeg')),
             Container(
               margin: const EdgeInsets.only(top: 32.0),
               child: ElevatedButton(
@@ -69,13 +69,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   );
                 },
                 style: ButtonStyle(
-                  shape: MaterialStateProperty.all(
-                    RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20), // <-- Radius
-                    ),
-                  ),
                   backgroundColor: MaterialStateProperty.all(
-                      const Color.fromRGBO(0, 0, 0, 1)),
+                      const Color.fromRGBO(255,20,147, 1)),
                   padding: MaterialStateProperty.all(
                       const EdgeInsets.fromLTRB(130, 12, 130, 12)),
                 ),

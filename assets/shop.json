@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "title": "Man",
+      "icon": "https://i.postimg.cc/KzwjwzVn/man.png"
+    },
+    {
+      "title": "Women",
+      "icon": "https://i.postimg.cc/BnYZLbg2/women.png"
+    },
+    {
+      "title": "Devices",
+      "icon": "https://i.postimg.cc/cHr6FYDx/devices.png"
+    },
+    {
+      "title": "Gadgets",
+      "icon": "https://i.postimg.cc/6qZqXKJF/gadgets.png"
+    },
+    {
+      "title": "Gaming",
+      "icon": "https://i.postimg.cc/kMRB8Q6w/gaming.png"
+    }
+  ],
+  "products": [
+    {
+      "cover": "https://img.joomcdn.net/2deaf7bdebc701ce7124206fb57a8380689748f4_original.jpeg",
+      "title": "Cotton Men's Pullover",
+      "sub_title": "Autumn High Quality",
+      "price": 155,
+      "currency": "$"
+    },
+    {
+      "cover": "https://img.joomcdn.net/0dcc24a1441361c987c9187e3a85544d5619a771_original.jpeg",
+      "title": "Men's Sport Running Shoes",
+      "sub_title": "Airavata",
+      "price": 1237,
+      "currency": "MDL"
+    },
+    {
+      "cover": "https://img.joomcdn.net/962a39f9a59c9f57402f95d78dc97d70dedddd42_original.jpeg",
+      "title": "Leather Boots",
+      "sub_title": "Winter Leather Shoes",
+      "price": 2137,
+      "currency": "MDL"
+    },
+    {
+      "cover": "https://img.joomcdn.net/a1b9ea1483cc6ffa71545bb60cde1a589176ced4_original.jpeg",
+      "title": "Crystal/Matte Protect Case",
+      "sub_title": "Macbook Air Pro",
+      "price": 30,
+      "currency": "$"
+    },
+    {
+      "cover": "https://img.joomcdn.net/8ca197d8431c168efcd4074a25e1a10380b1bbff_original.jpeg",
+      "title": "Wireless Mouse",
+      "sub_title": "Optical Wireless Mouse",
+      "price": 15,
+      "currency": "$"
+    },
+    {
+      "cover": "https://img.joomcdn.net/f51de9d868c5d1b2251b125879192d99a9ba6551_original.jpeg",
+      "title": "Twitter Off Road Bike",
+      "sub_title": "Carbon Frame",
+      "price":23187,
+      "currency": "MDL"
+    }
+  ]
+}
