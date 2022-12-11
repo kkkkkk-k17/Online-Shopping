@@ -42,6 +42,10 @@ cupertino_icons
 2.12
 file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5/
 file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.5/lib/
+dio
+2.12
+file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/
+file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/dio-4.0.6/lib/
 fake_async
 2.12
 file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.3.1/
@@ -168,8 +172,8 @@ file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/source_sp
 file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.9.0/lib/
 sqflite
 2.18
-file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.2.1/
-file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.2.1/lib/
+file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.2.2/
+file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.2.2/lib/
 sqflite_common
 2.18
 file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.4.0+2/
