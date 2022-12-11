@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:localstorage/localstorage.dart';
 import 'package:three_pam/presentation/pages/posts.dart';
 
 import '../../domain/Welcome.dart';
@@ -13,6 +14,16 @@ class PostRoute extends StatefulWidget {
 }
 
 class PostRouteState extends State<PostRoute> {
+  final storage = LocalStorage('post');
+
+  saveToStorage() {
+    storage.setItem('post', widget.data);
+  }
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    saveToStorage();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(

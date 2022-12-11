@@ -146,6 +146,12 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "localstorage",
+      "rootUri": "file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/localstorage-4.0.0+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///Users/katyakurkubet/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.12",
       "packageUri": "lib/",
@@ -356,7 +362,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-12-11T12:32:49.313687Z",
+  "generated": "2022-12-11T17:58:55.168684Z",
   "generator": "pub",
   "generatorVersion": "2.18.4"
 }

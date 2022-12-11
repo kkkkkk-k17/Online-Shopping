@@ -1,6 +1,7 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:localstorage/localstorage.dart';
 import 'package:three_pam/presentation/pages/postDetails.dart';
 
 import '../../domain/Welcome.dart';
@@ -13,6 +14,7 @@ class SecondRoute extends StatefulWidget {
 }
 
 class SecondRouteState extends State<SecondRoute> {
+  final storage = LocalStorage('shop');
   final baseUrl = 'http://mobile-shop-api.hiring.devebs.net/products';
   int page = 1;
 
@@ -24,6 +26,10 @@ class SecondRouteState extends State<SecondRoute> {
   bool isLoadMoreRunning = false;
 
   Welcomes posts = Welcomes(welcomes: []);
+
+  saveToStorage() {
+    storage.setItem('posts', posts.welcomes);
+  }
 
   void loadMore() async {
     if (hasNextPage == true &&
@@ -79,6 +85,7 @@ class SecondRouteState extends State<SecondRoute> {
       setState(() {
         posts = test;
       });
+      saveToStorage();
     } catch (err) {
       print(err);
       print('Something went wrong');
